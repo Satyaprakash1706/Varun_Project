@@ -1,3 +1,8 @@
+// Global exception handler responsible for mapping internal exceptions to HTTP responses.
+// Validation errors -> 400 with field map
+// NotFoundException -> 404
+// BadRequestException -> 400
+// Other exceptions -> 500
 package com.example.transactionstarter.transaction.exception;
 
 import org.springframework.http.HttpHeaders;

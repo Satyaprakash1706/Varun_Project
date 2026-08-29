@@ -1,3 +1,6 @@
+// Domain entity representing a financial transaction.
+// Fields: id (UUID), customerId, amount, currency (3-letter code), type, status.
+// The server generates the id and enforces initial status = PENDING.
 package com.example.transactionstarter.transaction;
 
 import jakarta.persistence.*;

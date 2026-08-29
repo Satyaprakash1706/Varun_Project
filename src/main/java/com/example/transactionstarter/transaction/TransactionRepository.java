@@ -1,3 +1,4 @@
+// Spring Data JPA repository for Transaction entities. Provides a convenience finder for customer transactions.
 package com.example.transactionstarter.transaction;
 
 import org.springframework.data.jpa.repository.JpaRepository;

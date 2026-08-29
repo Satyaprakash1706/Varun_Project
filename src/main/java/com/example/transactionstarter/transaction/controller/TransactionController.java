@@ -1,3 +1,8 @@
+// REST controller exposing transaction APIs:
+// POST /api/transactions
+// GET  /api/transactions/{id}
+// PATCH /api/transactions/{id}/status
+// GET  /api/customers/{customerId}/transactions
 package com.example.transactionstarter.transaction.controller;
 
 import com.example.transactionstarter.transaction.dto.CreateTransactionRequest;

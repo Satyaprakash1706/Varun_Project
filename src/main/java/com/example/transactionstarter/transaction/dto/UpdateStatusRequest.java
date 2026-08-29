@@ -1,3 +1,4 @@
+// DTO for status update. Only a TransactionStatus value is required.
 package com.example.transactionstarter.transaction.dto;
 
 import com.example.transactionstarter.transaction.TransactionStatus;

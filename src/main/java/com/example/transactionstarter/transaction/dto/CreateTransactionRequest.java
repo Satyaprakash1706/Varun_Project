@@ -1,3 +1,4 @@
+// DTO for create transaction request. Bean validation annotations enforce presence and basic rules.
 package com.example.transactionstarter.transaction.dto;
 
 import com.example.transactionstarter.transaction.TransactionType;

@@ -1,3 +1,4 @@
+// DTO returned to API clients representing a persisted transaction.
 package com.example.transactionstarter.transaction.dto;
 
 import com.example.transactionstarter.transaction.TransactionStatus;

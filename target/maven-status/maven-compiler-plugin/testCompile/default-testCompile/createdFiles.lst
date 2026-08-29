@@ -1,1 +1,3 @@
+com\example\transactionstarter\AdditionalTransactionTests.class
 com\example\transactionstarter\TransactionStarterApplicationTests.class
+com\example\transactionstarter\TransactionControllerTests.class

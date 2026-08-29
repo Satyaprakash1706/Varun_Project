@@ -1,3 +1,9 @@
+// Service layer implementing business operations for transactions.
+// Responsibilities:
+// - Create transactions (server assigns UUID and initial PENDING status)
+// - Retrieve transactions by id
+// - Update transaction status with guarded transitions (only PENDING -> COMPLETED/FAILED)
+// - Lookup transactions for a customer
 package com.example.transactionstarter.transaction.service;
 
 import com.example.transactionstarter.transaction.Transaction;
