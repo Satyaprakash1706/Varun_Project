@@ -1,12 +1,10 @@
 AI Assistance Disclosure
 
-This project was implemented with the assistance of an AI coding assistant (GitHub Copilot CLI). The AI helped to:
-- scaffold the transaction domain (entities, DTOs, enums)
-- implement service, controller, validation, and exception handling
-- create unit/integration tests
+Assisted by: GitHub Copilot CLI powered by gpt-5-mini.
 
-Human review
-- The code was placed under project directories and minimal human review is recommended before merging.
-- Verify business rules and adjust validations as needed for production.
-
-If you prefer no AI-generated content, please review and replace any parts as necessary.
+Edits performed in this session:
+- Updated README.md with API examples (Create/Get/Update status/Get customer transactions) and validation documentation.
+- Added file-level comments across the transaction package (entities, service, controller, DTOs, repository, enums, exceptions) to document responsibilities and rules.
+- Created new integration tests: src\test\java\com\example\transactionstarter\AdditionalTransactionTests.java (4 tests).
+- Created IMPLEMENTATION_README.md and updated it with implementation details.
+- Ran the test suite locally using the project's Maven wrapper (mvnw.cmd clean test) — all tests passed on the local environment.
